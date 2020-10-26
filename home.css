@@ -1,0 +1,10 @@
+body{
+background-image: url(img/fundo.jpg);
+background-size: 100%;
+}
+a{
+text-decoration: none;	
+position: relative;
+bottom: 50px;
+margin-left:30%;
+}

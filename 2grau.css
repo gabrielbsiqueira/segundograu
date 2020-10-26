@@ -1,0 +1,51 @@
+h2{
+font-style:italic;
+font-weight: bolder;
+color:#FFD700;
+}
+body{
+background-image: url(img/fundo.jpg);
+background-size: 100%;
+color:#FFD700;
+}
+div#borda{
+margin-right:1100px;
+padding-left: 10px;
+border: #DAA520 solid 5px;
+}
+input#botao{
+font: bold 12px/24px arial, helvetica;
+padding:0px;
+text-decoration: none;
+text-align:center;
+color:#ccc;
+background: #666 url(img/botao_link.gif)no-repeat center center;
+width:120px;
+height:24px;
+display:block;
+}
+input#botao:hover{
+background:url(img/botao_hover.gif) no-repeat center center;
+color:#999;
+}
+fieldset{
+border: 4px solid #DAA520;
+}
+div#pop1{
+display:none;
+position:absolute;
+left:auto%;
+}
+div#pop2{
+display:none;
+position:absolute;
+left:auto%;
+}
+div#pop3{
+display:none;
+position:absolute;
+left:auto%;
+}
+a{
+text-decoration:none;
+}

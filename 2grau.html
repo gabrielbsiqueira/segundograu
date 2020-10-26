@@ -1,0 +1,88 @@
+<html lang="pt-br">
+  <head>
+    <title>Equação do 2° Grau</title>
+    <link rel="icon" href="x.png" type="image/x-icon" />
+    <link href="2grau.css" rel="stylesheet">
+    <script type="text/javascript">
+
+      <!--
+      function Calcular() {
+        var a = document.ecuation.coefA.value;    // Coeficiente A
+        var b = document.ecuation.coefB.value;    // Coeficiente B
+        var c = document.ecuation.coefC.value;    // Coeficiente C
+        var delta = eval((b*b)-(4*a*c));          // Valor de delta
+        var x1 = eval((-1)*b + (Math.sqrt(delta)))/(2*a);    // Primeira solução
+        var x2 = eval((-1)*b - (Math.sqrt(delta)))/(2*a);    // Segunda solução
+
+        // Início da validação dos campos
+        if (isNaN(a) || a == "" || a == "0" || a == "00" || a == "000" || a == "0000" || a == "00000" || a == "0." || a == "0.0" || a == "0.00" || a == "0.000" || a == "0.0000") {
+          alert("Digite um valor numérico não-nulo no coeficiente a");
+          document.ecuation.coefA.focus();
+          return false;
+        }
+        if (isNaN(b) || b == "") {
+          alert("Digite um valor numérico no coeficiente b");
+          document.ecuation.coefB.focus();
+          return false;
+        }
+        if (isNaN(c) || c == "") {
+          alert("Digite um valor numérico no coeficiente c");
+          document.ecuation.coefC.focus();
+          return false;
+        }
+        // Fim da validação dos campos
+
+        document.ecuation.delta.value = delta;
+
+        if (delta < 0) {
+          document.ecuation.x1.value = "Não há raízes reais.";
+          document.ecuation.x2.value = "Não há raízes reais.";
+        }
+        else {
+          document.ecuation.x1.value = x1;
+          document.ecuation.x2.value = x2;
+        }
+      }
+      //-->
+    </script>
+  </head>
+
+  <body onload="document.ecuation.coefA.focus()" style="font: 13px Tahoma">
+    <hr>
+    <h2>Equação do 2° grau</h2>
+    <hr><fieldset>
+    <form name="ecuation" onsubmit="Calcular(); return false" action="#"><br /><br />
+      Coeficiente <b>a</b>: <input type="text" size="5" maxlength="5" name="coefA" /><br /><br />
+      Coeficiente <b>b</b>: <input type="text" size="5" maxlength="5" name="coefB" /><br /><br />
+      Coeficiente <b>c</b>: <input type="text" size="5" maxlength="5" name="coefC" /><br /><br />
+      <input id="botao" type="submit" value="Calcular" style="border: outset 1px #122561" onmouseover="style.color = '#CC1111'" onmouseout="style.color = ''"/>
+   </fieldset>    <hr><br /><br />
+      <h2>Resultado</h2>
+      <div id="borda"><br />
+        Valor de <b>&Delta;</b>: <input type="text" size="25" name="delta" class="dados" readonly="readonly" style="color: #FF0000; border: none" /><br /><br />
+        Valor de <b>x<sub>1</sub></b>: <input type="text" size="25" name="x1" readonly="readonly" style="color: #FF0000; border: none" /><br /><br />
+        Valor de <b>x<sub>2</sub></b>: <input type="text" size="25" name="x2" readonly="readonly" style="color: #FF0000; border: none" /><br /><br /><br />
+      </div>
+    </form>
+  </br>
+    <div id="pop1">
+    <img src="img/deltam.png" alt="">
+    <input id="botao" type="submit" value="Fechar" onclick="document.getElementById('pop1').style.display='none';"/>
+    </div>
+    <input id="botao" type="submit" value="&Delta;>0" onclick="document.getElementById('pop1').style.display='block';"/>
+  </br>
+    <div id="pop2">
+    <img src="img/deltan.png" alt="">
+    <input id="botao" type="submit" value="Fechar" onclick="document.getElementById('pop2').style.display='none';"/>
+    </div>
+    <input id="botao" type="submit" value="&Delta;<0" onclick="document.getElementById('pop2').style.display='block';"/>
+  </br>
+    <div id="pop3">
+    <img src="img/delta0.png" alt="">
+    <input id="botao" type="submit" value="Fechar" onclick="document.getElementById('pop3').style.display='none';"/>
+    </div>
+    <input id="botao" type="submit" value="&Delta;=0" onclick="document.getElementById('pop3').style.display='block';"/>
+  </br>
+<a href="home.html">Voltar</a>
+  </body>
+</html>

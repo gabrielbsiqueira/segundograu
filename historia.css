@@ -1,0 +1,25 @@
+body{
+background-image: url(img/fundo.jpg);
+background-size: 100%;
+}
+font{
+  font-family: Sans-serif;
+  font-size: large;
+  color: #FFD700;
+  border-width: inherit;
+}
+h1{
+  color:#FFD700;
+  font-weight: bolder;
+}
+fieldset#img{
+  border: #DAA520 solid 5px;
+  background-color: white;
+}
+img{
+  position: relative;
+  left: 450px;
+}
+a{
+text-decoration:none;
+}

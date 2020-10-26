@@ -1,0 +1,30 @@
+body{
+background-image: url(img/fundo.jpg);
+background-size: 100%;
+font-family: Sans-serif;
+font-weight: bolder;
+color: #FFD700;
+}
+a{
+text-decoration: none;	
+}
+fieldset#menor{
+border: #DAA520 solid 5px;
+background-color: white;
+}
+font{
+  font-weight: bolder;
+  color: red;
+  font-size: larger;
+  font-family: sans-serif;
+}
+hr{
+  height: 5px;
+  background-color: #F4A460;
+}
+img#X{
+  transition:5s;
+}
+img#X:hover{
+  transform: scale(2.0);
+}
