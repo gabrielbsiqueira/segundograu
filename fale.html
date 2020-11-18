@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="img/home.png" type="image/x-icon" />
+    <script src="script.js"></script>
+    <meta charset="utf-8">
+    <style type="text/css">*{padding: 0;margin: 0;}div{margin-left:20px;margin-right: 20px;padding: 10px;}fieldset{padding: 10px;}body{background-image: url(img/fundo.jpg);font-weight: bolder;}a{text-decoration: none;}fieldset{border:solid black 4px;} .coluna{background-color: DarkSalmon;margin: 15px 5%;border-radius: 10px;height:370px;width: calc(90% - 20px);float: center;}img{margin-left: 1%;width:50px;height:50px;}  
+    </style> 
+    <title>Fale Conosco</title>
+  </head>
+  <body>
+      <div class="coluna">
+        <form>
+          <fieldset><legend>Fale Conosco</legend>
+          <b><label> Nome </label></b>
+          <br>
+          <input type="text" maxlength="60" name="nomeid" id="nomeid" pattern="[A-Za-zà-ýÀ-Ý0-9ç ]*" required="required" placeholder="Nome Completo" class="form-control"/><br><br>
+          <b><label> Email</label></b>
+          <br>
+          <input name="email" type="email" id="email" required="required" placeholder="exemplo@exemplo.com" maxlength="30"/><br><br>
+
+          <b><label> Telefone para Contato:</label></b><br>
+            <input type="text" id="phone" name="phone" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);" class="form-control" placeholder="Ex.: (00) 0000-0000"/></br>
+          <br>
+          <b><label> Mensagem:</label></b><br>
+          <textarea name="mensagem" id="mensagem" class="required"></textarea><br></br>
+
+          <button id="button1id" type="submit" name="enviar" onclick="Enviar();" onClick="AssignValues()" value="Enviar">Enviar</button>
+          <button type="reset" onclick="ClearStorage();" class="btn btn-danger">Limpar</button>
+          
+          <br><br>
+          
+          <a href="index.html"><img src="img/voltar.png"></a>
+          </fieldset>
+        </form>
+      </div>
+  </body>
+</html>

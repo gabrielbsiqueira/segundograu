@@ -1,0 +1,22 @@
+@media print{
+aside{
+/* Oculta os blocos sem conteúdo relevante, comumente tags <aside>
+*/
+display: none;
+}
+}
+body{
+background-image: url(img/fundo.jpg);
+background-size: 100%;
+}
+a{
+text-decoration: none;	
+position: relative;
+bottom: 80px;
+margin-left:30%;
+}
+img#botao{
+position: relative;
+width:40px;
+height:40px;	
+}
