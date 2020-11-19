@@ -84,6 +84,6 @@ float: left;
 @media (max-width: 768px){
 .coluna{
 float: none;
-width: calc(100% - 0px);
+width: calc(90% - 20px);
 }
 }
