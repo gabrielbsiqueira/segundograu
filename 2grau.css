@@ -5,6 +5,12 @@ aside{
 display: none;
 }
 }
+@media (max-width: 768px){
+.coluna{
+float: none;
+width: calc(80% - 20px);
+}
+}
 *{	
 padding: 0;
 margin: 0;
