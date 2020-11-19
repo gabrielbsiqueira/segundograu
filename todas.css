@@ -17,7 +17,7 @@ float: center;
 @media (max-width: 768px){
 .coluna{
 float: none;
-width: calc(100% - 20px);
+width: calc(80% - 20px);
 }
 }
 
