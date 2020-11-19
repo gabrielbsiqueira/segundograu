@@ -87,3 +87,9 @@ float: none;
 width: calc(90% - 20px);
 }
 }
+@media (max-width: 768px){
+.coluna2{
+float: none;
+width: calc(90% - 20px);
+}
+}
