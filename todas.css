@@ -1,0 +1,73 @@
+@import url("reset.css");
+
+/* CSS desktop first */
+.coluna{
+background-color: #ddd;
+margin: 15px 5%;
+border-radius: 10px;
+height: 330px;
+width: calc(90% - 20px);
+float: center;
+}
+body{
+background-color: gray;
+background-size: 100%;
+font-family: Sans-serif;
+font-weight: bolder;
+margin: 10px;
+}
+a{
+text-decoration: none;	
+}
+fieldset#menor{
+border: #DAA520 solid 4px;
+background-color: DarkSalmon;
+border-radius: 10px;
+}
+fieldset{
+background-color:DarkGray;
+padding: 10px; 	
+}
+font{
+  font-weight: bolder !important;
+  color: #8B0000;
+  font-size: larger;
+  font-family: sans-serif;
+}
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-color: #DAA520;
+  border-width: 5px;
+}
+img#X{
+  transition:5s;
+}
+img#X:hover{
+  transform: scale(2.0);
+}
+img{
+width:180px; 
+height:160px; 
+}
+img#botao{
+margin-left:1%;
+width:50px;
+height:40px;
+
+}
+div{
+text-align: justify;
+padding: 10px;
+margin-left: 30px;
+margin-right: 30px;  
+}
+ul{
+margin-left: 50px;  
+}
+p{
+display: inline;
+}
+

@@ -1,0 +1,88 @@
+@import url("reset.css");
+
+font#p::first-letter{
+font-weight: bold;
+font-size: 40px;
+}
+div p{
+font-weight: bolder;
+color: black;
+font-family: sans-serif;
+  
+
+ }
+font::selection{
+background-color: yellow;
+}
+p#meio::first-letter{
+font-weight: bold;
+font-size: 40px;
+}
+
+font#topo{
+margin-left: 10px;
+font-weight: bolder;
+color: white;
+font-family: sans-serif;
+font-size: 40px;
+}
+body{
+text-align: justify;
+background-color: gray;
+background-image: url(img/fundo.jpg);
+font-family: Sans-serif;
+font-size: 20px;
+}
+hr#pad{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-color: #DAA520;
+  border-width: 5px;
+  border-radius: 10px;
+}
+a{
+text-decoration: none;
+margin-left: 5px;	
+}
+a:hover{
+opacity: 0.7;
+}
+a:active{
+font-weight: bold;
+}
+
+footer{
+position: absolute;
+bottom: 0;
+color: white;
+background-color: Gray;
+width: calc(100% - 0px);
+text-align: center;
+}
+div{
+text-align: justify;
+padding: 10px;
+margin-left: 10px;
+margin-right: 10px;  
+}
+/* CSS desktop first */
+div.coluna{
+background-color: DarkSalmon;
+margin: 20px 5%;
+border-radius: 10px;
+height:80px;
+width: calc(90% - 20px);
+float: center;
+clear: both;
+}
+div.coluna2{
+background-color: DarkSalmon;
+margin: 0px 2%;
+border-radius: 5px;
+height:160px;
+width: calc(13% - 0px);
+float: left;
+}
+

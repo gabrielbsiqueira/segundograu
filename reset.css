@@ -1,0 +1,19 @@
+*{
+ padding: 0;
+ margin: 0; 
+}
+
+@media print{
+aside{
+/* Oculta os blocos sem conteúdo relevante, comumente tags <aside>
+*/
+display: inline;
+}
+}
+
+@media (max-width: 768px){
+.coluna{
+float: none;
+width: calc(100% - 20px);
+}
+}
