@@ -2,7 +2,7 @@ var qtdCliques =0;
 function Enviar() {
   var nome = document.getElementById("nomeid");
   qtdCliques++;
-  document.formulario.btClique.value = "O usúario clicou " + qtdCliques + " vez(es).";
+  document.formulario.btClique.value = "O usuário clicou " + qtdCliques + " vez(es).";
 
 if (phone.value != "") {
         alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
